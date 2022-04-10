@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>STAM</title>
+  </head>
+  <body>
+    <header class='header-bg'>
+      <div class="header">
+      <div class="header__logo">
+        <a href="#">
+          <h1>STAM</h1>
+        </a>
+      </div>
+
+      <ul class='header__list'>
+        <li><a href='#home'>Início</a></li>
+        <li><a href='#problem'>Problema</a></li>
+        <li><a href='#solution'>Solução</a></li>
+        <li><a href='#operation'>Funcionamento</a></li>
+        <li><a href=''></a></li>
+      </ul>
+    </div>
+    </header>
+    
+    <section class='hero-bg' id="home">
+      <div class="hero">
+        <div class='hero__content'>
+          <h1 class='hero__title'>Sistema Tecnológico da <br /> Agricultura Moderna</h1>
+        </div>
+        <div class='hero__image'>
+          <img src="assets/hero-bg.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="problems" id="problem">
+
+
+      <div class="problem" id="problem-1">
+        <div class='problem__content'>
+          <h2>Identificar pragas</h2>
+          <p>Devido a grande quantidade de pragas a identificação torna-se um trabalho árduo</p>
+        </div>
+        <div class='problem__img'>
+          <img src="assets/identifier.png" />
+        </div>
+      </div>
+      
+      <div class="problem" id="problem-2">
+        <div class='problem__content'>
+          <h2>Quantidade de cultivos</h2>
+          <p>A quantia de cultivos torna inviável o mapeamento humano das pragas sem que haja perdas significativas</p>
+        </div>
+        <div class='problem__img'>
+          <img src="https://cdni.iconscout.com/illustration/premium/thumb/farmer-doing-root-crops-harvesting-4046793-3373147.png" />
+        </div>
+      </div>
+      
+      <div class="problem" id="problem-3">
+        <div class='problem__content'>
+          <h2>Tempo de reação</h2>
+          <p>As pragas podem atacar a qualquer momento e nem sempre você estará preparado</p>
+
+        </div>
+        <div class='problem__img'>
+          <img src="assets/pragas-2-icon.svg" />
+        </div>
+      </div>
+
+    </section>
+<!-- 
+  Monitoramento por câmeras
+  Sensores
+  Inteligência artificial
+
+ -->
+    <section class="solution" id="solution">
+      <h1>Solução</h1>
+      <div class="solution__container">
+
+        <div class='solution__card'>
+          <div class='card__image'>
+            <img src="assets/monitoring-icon.svg" />
+          </div>
+          <div class="card__title">
+            <h2>Monitoramento</h2>
+          </div>
+          <div class="card__text">
+            <p>Câmeras especiais são utilizadas no monitoramento da lavoura</p>
+
+          </div>
+        </div>
+        
+        <div class='solution__card'>
+          <div class='card__image'>
+            <img src="assets/pragas-icon.svg" />
+          </div>
+          <div class="card__title">
+            <h2>Reação rápida</h2>
+          </div>
+          <div class="card__text">
+            <p>O sistema reage automaticamente após a detecção de uma praga</p>
+
+          </div>
+        </div>
+        
+        <div class='solution__card'>
+          
+          <div class='card__image'>
+            <img src="assets/ia-icon.svg" />
+          </div>
+          
+          <div class="card__title">
+            <h2>Inteligência artificial</h2>
+          </div>
+
+          <div class="card__text">  
+            <p>Um modelo treinado de inteligência artificial é usado na detecção </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="operation" id="operation">
+      
+      <div class="operation__item" id="operation__item--1">
+        <div class="operation__item__img">
+          <img src="https://www.luda.farm/wp-content/uploads/2018/08/Luda_photo_FCHD-onlyCamera_2017-10-10_600p-2-500x500.png" alt='farm camera'/>
+        </div>
+
+        <div class="operation__item__text">
+          <h1>Monitoramento por câmera</h1>
+          <p>O sistema utiliza monitoramento por câmeras 
+             em conjunto com sensores terrestres para identificar 
+             e enviar imagens das pragas em caso de identificação
+          </p>
+        
+        </div>
+      </div>
+
+      <div class="operation__item" id="operation__item--2">
+        <div class="operation__item__text">
+          <h1>Inteligência artificial  </h1>
+          <p> O sistema possuirá uma inteligência artificial em seu 
+              backend que irá receber requests com as imagens das pragas
+              para retornar o nome da praga e acionar automaticamente o 
+              pesticida adequado para aquela praga conforme o modelo foi
+              treinado.
+
+          </p>
+          
+        </div>
+
+        <div class="operation__item__img">
+          <img src="assets/ia-2.png" alt='Farm app'/>
+
+        </div>
+      </div>
+      
+      <div class="operation__item" id="operation__item--3">
+        <div class="operation__item__img">
+          <img src="assets/db.png" alt='Farm app'/>
+        </div>
+
+        <div class="operation__item__text">
+          <h1>Banco de dados</h1>
+          <p>
+            Fotos capturadas pelo sistema com a identificação da praga são enviadas pelo backend para um banco de dados
+            registrando a quantidade de ocorrências 
+          </p>
+          
+        </div>
+      </div>
+      <div class="operation__item" id="operation__item--4">
+        
+        <div class="operation__item__text">
+          <h1>Controle</h1>
+          <p>
+            O usuário poderá escolher entre consumir os dados 
+            e controlar o sistema através de um aplicativo mobile,
+            ou um programa instalado no computador
+          </p>
+          
+        </div>
+
+        <div class="operation__item__img">
+          <img src="assets/mobile.png" alt='Farm app'/>
+        </div>
+
+        
+      </div>
+    
+    </section>
+    <footer>
+      <p>Todos os direitos reservado à STAM &copy;</p>
+    </footer>
+  </body>
+</html>
