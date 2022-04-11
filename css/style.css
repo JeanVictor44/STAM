@@ -193,3 +193,22 @@ footer {
 footer p {
     color:#FFF;
 }
+
+.hero__button {
+    display:block;
+    width:60%;
+    margin:20px auto;
+    padding:10px ;
+    text-align:center;
+    background-color:#437722;
+    color:#FFF;
+    border:none;
+    cursor:pointer;
+    transition:.5s ease-in-out;
+    text-decoration: none;
+}
+.hero__button:hover {
+    background-color:#FFF;
+color:var(--black);
+
+}
